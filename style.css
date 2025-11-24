@@ -8,7 +8,8 @@
 }
 
 body {
-  height: 2000px;
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--color2);
 }
 
 section {
@@ -61,14 +62,16 @@ section.hero img:hover {
 .car-box {
   background-color: var(--color5);
   height: 500px;
-  border-radius: 10px;
+  border-radius: 30px;
   position: relative;
   /* overflow: hidden; */
   transform-style: preserve-3d;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
 }
 
 .car-box:hover {
   z-index: 100;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
 }
 
 .car-box::before {
